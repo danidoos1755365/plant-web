@@ -1,1 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing - GreenSpace Plant Rental</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">🌿 GreenSpace</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="pricing.html" class="active">Pricing</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="booking.html" class="btn-primary">Book Now</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Our Pricing Plans</h1>
+            <p>Flexible options to fit your budget and office needs</p>
+        </div>
+    </section>
+
+    <!-- Pricing Plans -->
+    <section class="pricing-section">
+        <div class="container">
+            <div class="pricing-grid">
+                <!-- Starter Plan -->
+                <div class="pricing-card">
+                    <h3>Starter</h3>
+                    <div class="price">$99<span>/month</span></div>
+                    <p class="plan-description">Perfect for small offices</p>
+                    <ul class="plan-features">
+                        <li>✓ 5-8 plants</li>
+                        <li>✓ Weekly maintenance visits</li>
+                        <li>✓ Basic watering & care</li>
+                        <li>✓ Plant delivery included</li>
+                        <li>✗ Quarterly replacements</li>
+                        <li>✗ Pest control</li>
+                    </ul>
+                    <a href="booking.html" class="btn btn-outline">Get Started</a>
+                </div>
+
+                <!-- Professional Plan -->
+                <div class="pricing-card featured">
+                    <div class="badge">Most Popular</div>
+                    <h3>Professional</h3>
+                    <div class="price">$249<span>/month</span></div>
+                    <p class="plan-description">For growing businesses</p>
+                    <ul class="plan-features">
+                        <li>✓ 15-20 plants</li>
+                        <li>✓ Bi-weekly maintenance visits</li>
+                        <li>✓ Advanced care & pruning</li>
+                        <li>✓ Quarterly plant rotation</li>
+                        <li>✓ Pest & disease control</li>
+                        <li>✗ Emergency service</li>
+                    </ul>
+                    <a href="booking.html" class="btn">Get Started</a>
+                </div>
+
+                <!-- Enterprise Plan -->
+                <div class="pricing-card">
+                    <h3>Enterprise</h3>
+                    <div class="price">$499<span>/month</span></div>
+                    <p class="plan-description">For large organizations</p>
+                    <ul class="plan-features">
+                        <li>✓ 30+ plants</li>
+                        <li>✓ Weekly maintenance visits</li>
+                        <li>✓ Premium plant selection</li>
+                        <li>✓ Monthly plant refreshes</li>
+                        <li>✓ Priority pest control</li>
+                        <li>✓ 24/7 emergency service</li>
+                    </ul>
+                    <a href="booking.html" class="btn btn-outline">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Additional Services -->
+    <section class="additional-services">
+        <div class="container">
+            <h2>Add-On Services</h2>
+            <div class="services-list">
+                <div class="service-row">
+                    <div class="service-info">
+                        <h4>🌸 Seasonal Decorations</h4>
+                        <p>Transform plants for holidays and special events</p>
+                    </div>
+                    <div class="service-price">$50-150</div>
+                </div>
+                <div class="service-row">
+                    <div class="service-info">
+                        <h4>🎯 Custom Plant Design</h4>
+                        <p>Professional design consultation for plant arrangements</p>
+                    </div>
+                    <div class="service-price">$200</div>
+                </div>
+                <div class="service-row">
+                    <div class="service-info">
+                        <h4>🏢 Event Plant Installation</h4>
+                        <p>Temporary plant displays for corporate events</p>
+                    </div>
+                    <div class="service-price">$150/hr</div>
+                </div>
+                <div class="service-row">
+                    <div class="service-info">
+                        <h4>📚 Employee Workshops</h4>
+                        <p>Plant care education for your team</p>
+                    </div>
+                    <div class="service-price">$300</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h4>Can I upgrade or downgrade my plan?</h4>
+                    <p>Yes! You can change your plan anytime. Changes take effect on your next billing cycle.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>What happens if a plant dies?</h4>
+                    <p>We replace any dead or damaged plants at no extra cost. Your satisfaction is guaranteed.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Is there a contract?</h4>
+                    <p>No! We offer month-to-month flexibility. Cancel anytime with 30 days notice.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Do you provide planters?</h4>
+                    <p>Yes, stylish planters are included in all plans. We can also accommodate your own planters.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Choose Your Plan?</h2>
+            <a href="booking.html" class="btn btn-large">Book a Free Consultation</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>GreenSpace</h4>
+                    <p>Office plant rental and maintenance services</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: info@greenspace.com</p>
+                    <p>Phone: (555) 123-4567</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 GreenSpace. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
 
