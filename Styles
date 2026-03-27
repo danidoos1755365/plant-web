@@ -3,7 +3,7 @@
    ============================================ */
 
 :root {
-    --primary-color: #2ecc71;
+    --primary-color:  #f4f4f2;
     --primary-dark: #27ae60;
     --secondary-color: #3498db;
     --text-dark: #2c3e50;
