@@ -1,1 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Now - GreenSpace Plant Rental</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">🌿 GreenSpace</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="booking.html" class="active btn-primary">Book Now</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Book Your Consultation</h1>
+            <p>Get started with GreenSpace today. We'll discuss your office needs and create a custom plant plan.</p>
+        </div>
+    </section>
+
+    <!-- Booking Content -->
+    <section class="booking-section">
+        <div class="container">
+            <div class="booking-grid">
+                <!-- Booking Form -->
+                <div class="booking-form-container">
+                    <h2>Get in Touch</h2>
+                    <form id="bookingForm" class="booking-form">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="company">Company Name *</label>
+                            <input type="text" id="company" name="company" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="size">Office Size *</label>
+                            <select id="size" name="size" required>
+                                <option value="">Select office size</option>
+                                <option value="small">Small (1-10 employees)</option>
+                                <option value="medium">Medium (11-50 employees)</option>
+                                <option value="large">Large (51-200 employees)</option>
+                                <option value="enterprise">Enterprise (200+ employees)</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="service">Service Level *</label>
+                            <select id="service" name="service" required>
+                                <option value="">Select service level</option>
+                                <option value="starter">Starter Plan - $99/month</option>
+                                <option value="professional">Professional Plan - $249/month</option>
+                                <option value="enterprise">Enterprise Plan - $499/month</option>
+                                <option value="custom">Custom Quote</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="interests">Areas of Interest</label>
+                            <div class="checkbox-group">
+                                <label class="checkbox">
+                                    <input type="checkbox" name="interests" value="rental">
+                                    Plant Rental
+                                </label>
+                                <label class="checkbox">
+                                    <input type="checkbox" name="interests" value="maintenance">
+                                    Maintenance Service
+                                </label>
+                                <label class="checkbox">
+                                    <input type="checkbox" name="interests" value="design">
+                                    Custom Design Consultation
+                                </label>
+                                <label class="checkbox">
+                                    <input type="checkbox" name="interests" value="wellness">
+                                    Wellness Program
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Tell Us About Your Office *</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Describe your office space, lighting conditions, and what you're looking for..." required></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="checkbox">
+                                <input type="checkbox" name="newsletter" checked>
+                                Keep me updated about plant care tips and special offers
+                            </label>
+                        </div>
+
+                        <button type="submit" class="btn btn-large">Request Consultation</button>
+                    </form>
+                    <div id="successMessage" class="success-message" style="display: none;">
+                        ✓ Thank you! We've received your booking request. We'll contact you within 24 hours.
+                    </div>
+                </div>
+
+                <!-- Booking Info -->
+                <div class="booking-info">
+                    <h3>What to Expect</h3>
+                    <div class="info-box">
+                        <h5>📞 Step 1: Initial Contact</h5>
+                        <p>We'll reach out within 24 hours to discuss your needs and answer any questions.</p>
+                    </div>
+                    <div class="info-box">
+                        <h5>🏢 Step 2: Office Assessment</h5>
+                        <p>Our team will visit your office to evaluate lighting, space, and placement options.</p>
+                    </div>
+                    <div class="info-box">
+                        <h5>🎨 Step 3: Custom Plan</h5>
+                        <p>We'll create a personalized plant and maintenance plan tailored to your space.</p>
+                    </div>
+                    <div class="info-box">
+                        <h5>🚚 Step 4: Installation</h5>
+                        <p>We'll deliver and professionally install your plants and begin maintenance service.</p>
+                    </div>
+
+                    <hr>
+
+                    <h3>Contact Information</h3>
+                    <div class="contact-info">
+                        <p><strong>📍 Address:</strong> 123 Green Street, City, State 12345</p>
+                        <p><strong>📞 Phone:</strong> (555) 123-4567</p>
+                        <p><strong>📧 Email:</strong> info@greenspace.com</p>
+                        <p><strong>🕐 Hours:</strong> Mon-Fri 9am-6pm, Sat 10am-4pm</p>
+                    </div>
+
+                    <hr>
+
+                    <h3>Why Choose Us?</h3>
+                    <ul class="benefits">
+                        <li>✓ Expert horticulturists on staff</li>
+                        <li>✓ Custom quotes within 24 hours</li>
+                        <li>✓ Professional installation service</li>
+                        <li>✓ Ongoing maintenance & support</li>
+                        <li>✓ Money-back guarantee</li>
+                        <li>✓ Flexible month-to-month plans</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq">
+        <div class="container">
+            <h2>Booking Questions?</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h4>How much does a consultation cost?</h4>
+                    <p>Our consultations are completely free! We offer no-obligation assessments to help you decide if our services are right for you.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>How quickly can you get started?</h4>
+                    <p>We typically can schedule installation within 1-2 weeks of booking your consultation. Emergency setups can be arranged for rush requests.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Do you serve my area?</h4>
+                    <p>We serve the greater metro area. Contact us to confirm your location and discuss service availability.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>What if I need to cancel?</h4>
+                    <p>No problem! You can cancel anytime with 30 days notice. We also offer flexible plan adjustments.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>GreenSpace</h4>
+                    <p>Office plant rental and maintenance services</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: info@greenspace.com</p>
+                    <p>Phone: (555) 123-4567</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 GreenSpace. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
 
