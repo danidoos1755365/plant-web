@@ -1,1 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - GreenSpace Plant Rental</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">🌿 GreenSpace</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html" class="active">Services</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="booking.html" class="btn-primary">Book Now</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Services Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Our Services</h1>
+            <p>Complete plant rental and maintenance solutions for your office</p>
+        </div>
+    </section>
+
+    <!-- Services Details -->
+    <section class="services-detail">
+        <div class="container">
+            <h2>What We Offer</h2>
+
+            <!-- Service 1 -->
+            <div class="service-detail-card">
+                <div class="service-content">
+                    <h3>🌿 Plant Rental Service</h3>
+                    <p>Our flexible rental program gives you access to a rotating selection of beautiful plants without the commitment of ownership. Perfect for offices that want fresh greenery year-round.</p>
+                    <ul class="service-features">
+                        <li>Monthly plant rotations</li>
+                        <li>Seasonal selections available</li>
+                        <li>No long-term commitment</li>
+                        <li>Delivery included</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Service 2 -->
+            <div class="service-detail-card">
+                <div class="service-content">
+                    <h3>🚚 Installation & Setup</h3>
+                    <p>Our installation team works with your space to find the perfect locations for maximum visual impact and plant health. We handle all the heavy lifting and ensure professional placement.</p>
+                    <ul class="service-features">
+                        <li>Site assessment</li>
+                        <li>Professional placement</li>
+                        <li>Planter selection</li>
+                        <li>Initial soil preparation</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Service 3 -->
+            <div class="service-detail-card">
+                <div class="service-content">
+                    <h3>🛠️ Regular Maintenance</h3>
+                    <p>We provide ongoing care including watering, nutrient feeding, pest control, and health monitoring. Regular visits ensure your plants always look their best.</p>
+                    <ul class="service-features">
+                        <li>Weekly or bi-weekly visits</li>
+                        <li>Professional watering schedule</li>
+                        <li>Pest and disease monitoring</li>
+                        <li>Leaf cleaning and grooming</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Service 4 -->
+            <div class="service-detail-card">
+                <div class="service-content">
+                    <h3>💚 Health & Wellness Programs</h3>
+                    <p>Plants improve air quality, boost mood, and increase productivity. We help you create a healthier, more vibrant office environment through strategic plant placement.</p>
+                    <ul class="service-features">
+                        <li>Air-purifying plant selection</li>
+                        <li>Wellness consulting</li>
+                        <li>Office environment analysis</li>
+                        <li>Employee engagement programs</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Plant Types -->
+    <section class="plant-types">
+        <div class="container">
+            <h2>Plant Types Available</h2>
+            <div class="plants-grid">
+                <div class="plant-card">
+                    <div class="plant-emoji">🌴</div>
+                    <h4>Tropical Plants</h4>
+                    <p>Philodendrons, Monsteras, Bird of Paradise</p>
+                </div>
+                <div class="plant-card">
+                    <div class="plant-emoji">🌿</div>
+                    <h4>Leafy Greens</h4>
+                    <p>Pothos, Ferns, ZZ Plants</p>
+                </div>
+                <div class="plant-card">
+                    <div class="plant-emoji">🌵</div>
+                    <h4>Low-Maintenance</h4>
+                    <p>Succulents, Snake Plants, Dracaena</p>
+                </div>
+                <div class="plant-card">
+                    <div class="plant-emoji">🌸</div>
+                    <h4>Flowering Plants</h4>
+                    <p>Orchids, Anthuriums, Spathiphyllums</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Transform Your Office?</h2>
+            <a href="booking.html" class="btn btn-large">Get Started</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>GreenSpace</h4>
+                    <p>Office plant rental and maintenance services</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: info@greenspace.com</p>
+                    <p>Phone: (555) 123-4567</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 GreenSpace. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
 
